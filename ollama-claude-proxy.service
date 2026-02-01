@@ -1,0 +1,19 @@
+[Unit]
+Description=Ollama to Claude API Proxy for mod-ollama-chat
+After=network.target
+
+[Service]
+Type=simple
+User=your-user
+# IMPORTANT: Set your actual Anthropic API key below
+Environment=ANTHROPIC_API_KEY=sk-ant-api03-YOUR-KEY-HERE
+Environment=ANTHROPIC_MAX_TOKENS=512
+Environment=PROXY_PORT=11435
+Environment=LOG_LEVEL=INFO
+WorkingDirectory=/path/to/ollama-claude-proxy
+ExecStart=/usr/bin/python3 /path/to/ollama-claude-proxy/ollama_claude_proxy.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
