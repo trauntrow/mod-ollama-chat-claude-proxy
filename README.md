@@ -116,24 +116,22 @@ Use any of these in `OllamaChat.Model`:
 
 ### Optimized Prompt Templates
 
-The `conf/` directory includes Claude-optimized prompt templates for mod-ollama-chat. These take advantage of Claude's superior instruction-following to create immersive bot personalities:
+The repo includes Claude-optimized prompt templates for mod-ollama-chat. These take advantage of Claude's superior instruction-following to create immersive bot personalities:
 
 - Bots think they're real players, not NPCs
 - Strong class rivalries and faction loyalty
 - Natural WoW slang (BiS, oom, pug, ninja, kek)
 - Personality-driven reactions to events
 
-See [`conf/prompt-templates.conf`](conf/prompt-templates.conf) for details.
 
 ### Personality Packs
 
-The `data/sql/characters/updates/` directory includes personality SQL packs:
+This repo includes personality SQL packs:
 
 - **60 unique personalities** spanning WoW player archetypes and general personality types
 - Ready to import into HeidiSQL or your MySQL client
 - Compatible with mod-ollama-chat's personality system
 
-See [`data/sql/characters/updates/`](data/sql/characters/updates/) for the SQL files.
 
 ## Running as a Service
 
