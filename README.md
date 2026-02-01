@@ -126,7 +126,7 @@ The repo includes Claude-optimized prompt templates for mod-ollama-chat. These t
 
 ### Personality Packs
 
-This repo includes personality SQL packs:
+This repo includes personality SQL packs by Dustin Hendrickson:
 
 - **60 unique personalities** spanning WoW player archetypes and general personality types
 - Ready to import into HeidiSQL or your MySQL client
